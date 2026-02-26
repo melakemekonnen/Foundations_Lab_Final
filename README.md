@@ -14,8 +14,8 @@ My primary area of interest is **Cloud Security**, with emphasis on:
 - Protecting data in the cloud through encryption and access controls
 
 ## Security Foundations: Governance & Frameworks
-### CIA Triad
+### CIA Triad and AAA Framework 
 The CIA Triad focuses on Confidentiality, Integrity, and Availability. Confidentiality ensures that information is accessible only to authorized individuals. Integrity focuses on keeping data accurate and intact, preventing unauthorized modification or destruction. Availability ensures that data and systems are accessible and usable by authorized individuals whenever needed.
-
+The AAA Framework stands for Authentication, Authorization, and Accounting. Authentication verifies the identity of users, Authorization determines which resources an authenticated user can access, and Accounting tracks and logs user activities for auditing and compliance.
 ## Reference (APA)
 Amazon Web Services. (n.d.). *AWS Certified Cloud Practitioner exam guide and preparation resources*. AWS Training and Certification. https://aws.amazon.com/certification/certified-cloud-practitioner/
