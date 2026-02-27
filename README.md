@@ -17,5 +17,18 @@ My primary area of interest is **Cloud Security**, with emphasis on:
 ### CIA Triad and AAA Framework 
 The CIA Triad focuses on Confidentiality, Integrity, and Availability. Confidentiality ensures that information is accessible only to authorized individuals. Integrity focuses on keeping data accurate and intact, preventing unauthorized modification or destruction. Availability ensures that data and systems are accessible and usable by authorized individuals whenever needed.
 The AAA Framework stands for Authentication, Authorization, and Accounting. Authentication verifies the identity of users, Authorization determines which resources an authenticated user can access, and Accounting tracks and logs user activities for auditing and compliance.
+
+## Security Philosophy
+
+In my lab environment, the principles of the **CIA Triad—Confidentiality, Integrity, and Availability—**are actively applied through **virtualization and system isolation**. **Confidentiality** is ensured by running experiments in isolated virtual machines (VMs) UTM in my case and segmented networks, which prevent unauthorized users from accessing sensitive data. Additional measures such as strong authentication.
+
+**Integrity** is maintained by using virtualization features such as snapshots, version control, and change tracking. These tools allow me to monitor, detect, and revert any unauthorized or accidental modifications to system files or configurations.  
+
+**Availability** is supported through virtualization technologies that provide resource allocation, redundancy, and failover capabilities. If a host or VM experiences failure, workloads can be quickly redistributed or restarted.
 ## Reference (APA)
+
 Amazon Web Services. (n.d.). *AWS Certified Cloud Practitioner exam guide and preparation resources*. AWS Training and Certification. https://aws.amazon.com/certification/certified-cloud-practitioner/
+
+Rittinghouse, J. W., & Ransome, J. F. (2017). *Cloud computing: Implementation, management, and security*. CRC Press.
+
+Sharma, S., & Sood, S. K. (2016). *Virtualization for security in cloud computing*. Springer.
